@@ -1,0 +1,229 @@
+<html>
+   <head>
+       <title>Pacific Cart</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+       <link rel="stylesheet" href="style3.css">
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+       <!---------header---------->
+       <div class="header">
+          
+       <div class="container">
+           <div class="navbar">
+               <div class="logo">
+                   <img src="images/logo.png" width="75px">
+                   <h1>PACIFIC CART</h1>
+  
+               </div>
+               <nav>
+                   <ul id="MenuItems">
+                       <li><a href="home.html">Home</a></li>
+                       <li><a href="product.html">Products</a></li>
+                       <li><a href="aboutus.html">About</a></li>
+                       <li><a href="contact.html">Contact</a></li>
+                       <li><a href="account.html">Account</a></li>
+                   </ul>
+                  
+               </nav>
+               <img src="images/cart.png" width="30px" height="30px">
+               <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+           </div>
+       </div>
+   </div>
+<!---------featured---------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-indicators">
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+   </div>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img src="productimages/carosel/1.png" class="d-block w-100" alt="...">
+     </div>
+     <div class="carousel-item">
+       <img src="productimages/carosel/2.png" class="d-block w-100" alt="...">
+     </div>
+     <div class="carousel-item">
+       <img src="productimages/carosel/3.png" class="d-block w-100" alt="...">
+     </div>
+  
+      <div class="carousel-item">
+        <img src="productimages/carosel/4.png" class="d-block w-100" alt="...">
+      </div>
+      
+      <div class="carousel-item">
+        <img src="productimages/carosel/5.png" class="d-block w-100" alt="...">
+      </div>
+      
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+   </button>
+ </div>
+      
+<!---------categories---------->
+<div class="categories">
+    <h3>CATEGORIES</h3>
+   
+    <div class="small-container">
+       
+        <div class="row">
+           <!----------------- CATEGORIES LIST (GAMING)-------------->
+            <div class="col-3"><a href="product-gaming.html"><img src="images/gaming.jpg"></a>
+            <br>
+            <h4>GAMING</h4>
+            </div>
+
+            <!----------------- CATEGORIES LIST (SMARTPHONES)-------------->
+            <div class="col-3"><a href="product-smartphone.html"><img src="images/smartphones.jpg"></a>
+                <br>
+                <h4>SMARTPHONES</h4>
+            </div>
+
+            <!----------------- CATEGORIES LIST (GROCERIES)-------------->
+            <div class="col-3"><a href="product-grocery.html"><img src="images/groceries.jpg"></a>
+            <br>
+            <h4>GROCERIES</h4>
+            </div>
+
+            
+            
+            
+        </div>
+    </div> 
+ </div>
+<!---------brands---------->
+<div class="brands">
+   <div class="small-container">
+       <div class="row">
+           <div class="col-5">
+               <img src="images/logo-godrej.png">
+           </div>
+           <div class="col-5">
+               <img src="images/logo-oppo.png">
+           </div>
+           <div class="col-5">
+               <img src="images/logo-paypal.png">
+           </div>
+           <div class="col-5">
+               <img src="images/logo-philips.png">
+           </div>
+       </div>
+   </div>
+</div>
+
+<!-------------footer-------------->
+<div class="footer">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-2">
+             
+               <ul>
+                   <h3>ABOUT</h3>
+                   <li><a href="About.html">About us</a></li>           
+                <li><a href="">Contact us</a></li>
+               <li><a href="">Whole sale</a></li>
+               </ul>
+              
+           </div>
+           <div class="col-md-2">
+              
+              
+               <ul>
+                   <h3>HELP</h3>
+                   <li><a href="">Payments</a></li>           
+                   <li><a href="">Shipping</a></li>
+                   <li><a href="">Cancellation & Returns</a></li>
+               </ul>
+              
+           </div>
+           <div class="col-md-2">
+              
+              
+               <ul>
+                   <h3>POLICY</h3>
+                   <li><a href="">Return policy</a></li>           
+                   <li><a href="">Security</a></li>
+                   <li><a href="">Privacy</a></li>
+               </ul>
+              
+           </div>
+           <div class="col-md-2">
+              
+              
+               <ul>
+                   <h3>SOCIAL</h3>
+                   <li><a href="">Facebook</a></li>           
+                   <li><a href="">Twitter</a></li>
+                   <li><a href="">Instagram</a></li>
+               </ul>
+              
+           </div>
+       </div>
+       <hr>
+       <p class="copyright">Copyright 2021 - Pacific Cart</p>
+   </div>
+  
+</div>
+
+<!-----------js for toggle menu----------->
+       <script>
+           var MenuItems=document.getElementById("MenuItems");
+           MenuItems.style.maxHeight="0px";
+           function menutoggle(){
+               if(MenuItems.style.maxHeight == "0px")
+           {
+               MenuItems.style.maxHeight = "200px";
+           }else
+           {
+               MenuItems.style.maxHeight = "0px"
+           }
+           }
+       </script>
+
+
+<!-----------js for carousel---------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("dot");
+ if (n > slides.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+ }
+ for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block";
+ dots[slideIndex-1].className += " active";
+}
+</script>
+   </body>
+</html>
+
